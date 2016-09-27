@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Country from './country.js'
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <Country />
     );
   }
 }
